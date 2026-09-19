@@ -6,20 +6,28 @@ This repository contains public Android development and production testing build
 
 ---
 
-## 📱 Latest Production Release: v1.0.8
+## 📱 Latest Production Release: v1.0.9
 
 ### 📦 Download APKs
-- **[Mr.IPO User App (v1.0.8)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.8/MrIPO-UserApp-v1.0.8.apk)**
+- **[Mr.IPO User App (v1.0.9)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.9/MrIPO-UserApp-v1.0.9.apk)**
 - **[Mr.IPO Admin App (v1.0.0)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.4/MrIPO-AdminApp-v1.0.0.apk)**
 
 ---
 
-### 🚀 Highlights & Changelog (v1.0.8)
-- **Standardized Listed IPO Card Design (Allotted Tab)**: Applied the reference 3-column layout strictly to listed IPOs in the Allotted section:
-  - Header: Inline type tag (e.g. `Vinod Texworld SME`) and clean subtitle (`Listed · NSE SME`).
-  - Columns: `Issue Price` (e.g. `₹94.00`), `Listed Price` with gain (e.g. `₹94 (+0.0%)`), and `Current` with return (e.g. `₹85 (-9.6%)`).
-  - Strict scope: All other sections (Open, Upcoming, Awaiting Allotment, unlisted allotted IPOs) remain 100% untouched.
-- **All Automated Tests Passing (306/306)**.
+### 🚀 Highlights & Changelog (v1.0.9)
+- **Authoritative IPOWiz Primary Architecture**: Mr.IPO uses IPOWiz as the primary data source with Screener.in as a switchable server-controlled fallback.
+- **Server-Side Irregular ~10-Minute Auto-Sync**: Background daemon guarantees continuous freshness at 5m, 7m, 9m, 10m, 11m, 12m intervals with zero data wipe on failure.
+- **Clean Normal User App**: Normal user app contains zero sync banners, provider names, or telemetry, strictly presenting clean IPO cards, dates, GMP, gains, subscription multiples, and allotment statuses.
+- **Admin App & Web Parity**: Full provider switching and sync triggers in Admin Web and Mobile Admin Portal.
+- **506/506 Automated Tests Passing Across Stack**.
+
+---
+
+## 📱 Previous Releases
+
+### v1.0.8
+- **[Mr.IPO User App (v1.0.8)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.8/MrIPO-UserApp-v1.0.8.apk)**
+- **[Mr.IPO Admin App (v1.0.0)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.4/MrIPO-AdminApp-v1.0.0.apk)**
 
 ---
 
