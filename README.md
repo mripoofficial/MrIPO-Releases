@@ -6,19 +6,28 @@ This repository contains public Android development and production testing build
 
 ---
 
-## 📱 Latest Production Release: v1.0.7
+## 📱 Latest Production Release: v1.0.8
 
 ### 📦 Download APKs
-- **[Mr.IPO User App (v1.0.7)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.7/MrIPO-UserApp-v1.0.7.apk)**
+- **[Mr.IPO User App (v1.0.8)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.8/MrIPO-UserApp-v1.0.8.apk)**
 - **[Mr.IPO Admin App (v1.0.0)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.4/MrIPO-AdminApp-v1.0.0.apk)**
 
 ---
 
-### 🚀 Highlights & Changelog (v1.0.7)
-- **Top AppBar Polish**: Removed redundant notification bell icon from top header to maintain a clean, uncluttered action bar.
-- **Single-Month Bidding Range**: Simplified date range display from `17 Sep - 21 Sep` to `17-21 Sep` when open and close fall in the same month.
-- **Subscription Display Strictly for Open IPOs**: Removed subscription rows from Awaiting Allotment and Allotted cards, preserving the detailed subscription table strictly on Open IPO cards.
+### 🚀 Highlights & Changelog (v1.0.8)
+- **Standardized Listed IPO Card Design (Allotted Tab)**: Applied the reference 3-column layout strictly to listed IPOs in the Allotted section:
+  - Header: Inline type tag (e.g. `Vinod Texworld SME`) and clean subtitle (`Listed · NSE SME`).
+  - Columns: `Issue Price` (e.g. `₹94.00`), `Listed Price` with gain (e.g. `₹94 (+0.0%)`), and `Current` with return (e.g. `₹85 (-9.6%)`).
+  - Strict scope: All other sections (Open, Upcoming, Awaiting Allotment, unlisted allotted IPOs) remain 100% untouched.
 - **All Automated Tests Passing (306/306)**.
+
+---
+
+## 📱 Previous Releases
+
+### v1.0.7
+- **[Mr.IPO User App (v1.0.7)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.7/MrIPO-UserApp-v1.0.7.apk)**
+- **[Mr.IPO Admin App (v1.0.0)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.4/MrIPO-AdminApp-v1.0.0.apk)**
 
 ---
 
