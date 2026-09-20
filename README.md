@@ -6,20 +6,19 @@ This repository contains public Android development and production testing build
 
 ---
 
-## 📱 Latest Production Release: v1.0.9
+## 📱 Latest Production Release: v1.0.10
 
 ### 📦 Download APKs
-- **[Mr.IPO User App (v1.0.9)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.9/MrIPO-UserApp-v1.0.9.apk)**
-- **[Mr.IPO Admin App (v1.0.0)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.4/MrIPO-AdminApp-v1.0.0.apk)**
+- **[Mr.IPO User App (v1.0.10)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.10/MrIPO-UserApp-v1.0.10.apk)**
+- **[Mr.IPO Admin App (v1.0.1)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.1/MrIPO-AdminApp-v1.0.1.apk)**
 
 ---
 
-### 🚀 Highlights & Changelog (v1.0.9)
-- **Authoritative IPOWiz Primary Architecture**: Mr.IPO uses IPOWiz as the primary data source with Screener.in as a switchable server-controlled fallback.
-- **Server-Side Irregular ~10-Minute Auto-Sync**: Background daemon guarantees continuous freshness at 5m, 7m, 9m, 10m, 11m, 12m intervals with zero data wipe on failure.
-- **Clean Normal User App**: Normal user app contains zero sync banners, provider names, or telemetry, strictly presenting clean IPO cards, dates, GMP, gains, subscription multiples, and allotment statuses.
-- **Admin App & Web Parity**: Full provider switching and sync triggers in Admin Web and Mobile Admin Portal.
-- **506/506 Automated Tests Passing Across Stack**.
+### 🚀 Highlights & Changelog (v1.0.10)
+- **100% Production Autonomous Cloud Scheduler**: Supabase cloud pg_cron + pg_net + scheduler-tick architecture running independently in the cloud with zero local daemon dependency.
+- **Verified End-to-End Across Admin & User Apps**: Both freshly compiled release APKs verified on emulator displaying real production IPO data from IPOWiz via Supabase.
+- **Clean User App**: Strict isolation of all administrative/monitoring telemetry — user app displays solely market data (dates, sizes, lots, GMP, gain, subscription multiples, and allotment statuses).
+- **Admin Mobile Console**: Live provider status (IPOWiz Active), manual sync triggers, GMP management, and real-time audit logs.
 
 ---
 
