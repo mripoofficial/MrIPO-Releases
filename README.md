@@ -6,20 +6,28 @@ This repository contains public Android development and production testing build
 
 ---
 
-## 📱 Latest Production Release: v1.0.11
+## 📱 Latest Production Release: v1.0.12
 
 ### 📦 Download APKs
-- **[Mr.IPO User App (v1.0.11)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.11/MrIPO-UserApp-v1.0.11.apk)**
+- **[Mr.IPO User App (v1.0.12)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.12/MrIPO-UserApp-v1.0.12.apk)**
 - **[Mr.IPO Admin App (v1.0.1)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.1/MrIPO-AdminApp-v1.0.1.apk)**
 
 ---
 
-### 🚀 Highlights & Changelog (v1.0.11)
-- **Live PAN-based IPO Allotment Checker (IPOwiz Architecture)**: Automated server-side allotment query engine querying real registrar gateways (KFintech, Link Intime, Bigshare, Maashitla) over HTTPS.
-- **1-Tap Multi-PAN Check**: Check all saved PAN profiles simultaneously with color-coded status result cards (Allotted, Not Allotted, Pending, Verification Required).
-- **Filtered Allotment IPO Picker**: Allotment IPO selector displays exclusively *Awaiting Allotment* and *Allotted* IPOs, keeping Upcoming and Open IPOs neatly segregated.
-- **Official Registrar Portal Fallback**: 1-tap direct handoff to official registrar portal if CAPTCHA or manual verification is required.
+### 🚀 Highlights & Changelog (v1.0.12)
+- **Cameo Corporate Services registrar integration added**: Multi-registrar allotment pipeline now resolves and queries issues handled by Cameo Corporate Services (e.g. Takyon Networks, RK Fashion, Icodex, Dhanwel, etc.).
+- **Live Verification & CAPTCHA Boundary Notice**: Cameo Corporate Services' official portal requires CAPTCHA verification; automated allotment results must not be claimed as verified when the official source cannot confirm them. If manual verification is required, users can 1-tap navigate directly to the official registrar portal.
+- **Enhanced Multi-Registrar Resolution**: Expanded direct official and resilient routing for Link Intime, Bigshare, Skyline, and KFintech.
+- **Accurate 'Not Applied' State Resolution**: Clearly distinguishes conclusive 'Not Applied' (applicant did not submit an application) from indeterminate technical registrar gateway errors across all supported registrar checks.
 - **Strict Privacy**: PAN is stored exclusively in on-device hardware keystore; never logged or persisted on backend servers.
+
+---
+
+## 📱 Previous Releases
+
+### v1.0.11
+- **[Mr.IPO User App (v1.0.11)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.11/MrIPO-UserApp-v1.0.11.apk)**
+- **[Mr.IPO Admin App (v1.0.1)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.1/MrIPO-AdminApp-v1.0.1.apk)**
 
 ---
 
