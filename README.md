@@ -6,21 +6,28 @@ This repository contains public Android development and production testing build
 
 ---
 
-## 📱 Latest Production Release: v1.0.16
+## 📱 Latest Production Release: v1.0.17
 
 ### 📦 Download APKs
-- **[Mr.IPO User App (v1.0.16)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.16/MrIPO-UserApp-v1.0.16.apk)**
+- **[Mr.IPO User App (v1.0.17)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.17/MrIPO-UserApp-v1.0.17.apk)**
 - **[Mr.IPO Admin App (v1.0.1)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.1/MrIPO-AdminApp-v1.0.1.apk)**
 
 ---
 
-### 🚀 Highlights & Changelog (v1.0.16)
-- **Bigshare Multi-Application Aggregation & Deduplication**: Full multi-application aggregation and deduplication matching the official Bigshare Online registrar portal contract (`MatchCount > 1` and `Records`).
-- **Empty Response & Malformed Data Guards**: Strict validation ensures empty arrays (`[]`), empty `Records`, or missing application numbers never falsely return `NOT_ALLOTTED`.
-- **New Bigshare Mappings**: Added verified mappings for Shellz India (`607`), Nityas Gems and Jewellery (`9053`), and Omara Ventures India (`604`).
-- **Polished Allotment History UI**: Redesigned allotment cards to uniform, attractive card sizes, eliminated duplicate PAN display on not-applied cards, and applied color-coded status hierarchy (Green = Allotted, Amber = Awaiting allotment, Red = Not allotted, Neutral = Not applied).
-- **Clean Allotment Checker Display**: Removed registrar name text on status cards and moved timestamp next to IPO name for a clean, modern interface.
+### 🚀 Highlights & Changelog (v1.0.17)
+- **Skyline Financial Services Registrar Integration**: Direct official and resilient proxy querying for Skyline (`skylinerta.com`), with full multi-application aggregation and deduplication across both tabular grid and key-value formats.
+- **Clean Allotment Checker Screen**: Removed redundant "Open Official Registrar Page" link since direct in-app automated queries handle Skyline without CAPTCHA.
+- **Expanded Skyline Company Mappings**: Added 28 verified active companies directly from Skyline's official portal (e.g., Acetech, Aten Papers, Cedaar Textile, Earkart, Essex Marine, Finbud Financial, Game Changers, Globtier, Ken Enterprises, KVS Castings, LGT Business, Munish Forge, Neetu Yoshi, Nikita Greentech, OM Metallogic, Prime Cable, Renol Polychem, Sawaliya Foods, Sheel Biotech, Snehaa Organics, Western Overseas, etc.).
+- **Strict Data Validation**: Validates all share counts with `parseShareCount` and prevents malformed or empty payloads from returning false `NOT_ALLOTTED`.
 - **Strict Privacy**: PAN is stored exclusively in on-device hardware keystore; never logged or persisted on backend servers.
+
+---
+
+## 📱 Previous Releases
+
+### v1.0.16
+- **[Mr.IPO User App (v1.0.16)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.16/MrIPO-UserApp-v1.0.16.apk)**
+- **[Mr.IPO Admin App (v1.0.1)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.1/MrIPO-AdminApp-v1.0.1.apk)**
 
 ---
 
