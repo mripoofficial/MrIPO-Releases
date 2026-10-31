@@ -6,20 +6,29 @@ This repository contains public Android development and production testing build
 
 ---
 
-## 📱 Latest Production Release: v1.0.12
+## 📱 Latest Production Release: v1.0.16
 
 ### 📦 Download APKs
-- **[Mr.IPO User App (v1.0.12)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.12/MrIPO-UserApp-v1.0.12.apk)**
+- **[Mr.IPO User App (v1.0.16)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.16/MrIPO-UserApp-v1.0.16.apk)**
 - **[Mr.IPO Admin App (v1.0.1)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.1/MrIPO-AdminApp-v1.0.1.apk)**
 
 ---
 
-### 🚀 Highlights & Changelog (v1.0.12)
-- **Cameo Corporate Services registrar integration added**: Multi-registrar allotment pipeline now resolves and queries issues handled by Cameo Corporate Services (e.g. Takyon Networks, RK Fashion, Icodex, Dhanwel, etc.).
-- **Live Verification & CAPTCHA Boundary Notice**: Cameo Corporate Services' official portal requires CAPTCHA verification; automated allotment results must not be claimed as verified when the official source cannot confirm them. If manual verification is required, users can 1-tap navigate directly to the official registrar portal.
-- **Enhanced Multi-Registrar Resolution**: Expanded direct official and resilient routing for Link Intime, Bigshare, Skyline, and KFintech.
-- **Accurate 'Not Applied' State Resolution**: Clearly distinguishes conclusive 'Not Applied' (applicant did not submit an application) from indeterminate technical registrar gateway errors across all supported registrar checks.
+### 🚀 Highlights & Changelog (v1.0.16)
+- **Bigshare Multi-Application Aggregation & Deduplication**: Full multi-application aggregation and deduplication matching the official Bigshare Online registrar portal contract (`MatchCount > 1` and `Records`).
+- **Empty Response & Malformed Data Guards**: Strict validation ensures empty arrays (`[]`), empty `Records`, or missing application numbers never falsely return `NOT_ALLOTTED`.
+- **New Bigshare Mappings**: Added verified mappings for Shellz India (`607`), Nityas Gems and Jewellery (`9053`), and Omara Ventures India (`604`).
+- **Polished Allotment History UI**: Redesigned allotment cards to uniform, attractive card sizes, eliminated duplicate PAN display on not-applied cards, and applied color-coded status hierarchy (Green = Allotted, Amber = Awaiting allotment, Red = Not allotted, Neutral = Not applied).
+- **Clean Allotment Checker Display**: Removed registrar name text on status cards and moved timestamp next to IPO name for a clean, modern interface.
 - **Strict Privacy**: PAN is stored exclusively in on-device hardware keystore; never logged or persisted on backend servers.
+
+---
+
+## 📱 Previous Releases
+
+### v1.0.12
+- **[Mr.IPO User App (v1.0.12)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.12/MrIPO-UserApp-v1.0.12.apk)**
+- **[Mr.IPO Admin App (v1.0.1)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.1/MrIPO-AdminApp-v1.0.1.apk)**
 
 ---
 
