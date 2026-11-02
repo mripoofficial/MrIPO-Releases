@@ -6,9 +6,25 @@ This repository contains public Android development and production testing build
 
 ---
 
-## 📱 Latest Production Release: v1.0.17
+## 📱 Latest Production Release: v1.0.18
 
 ### 📦 Download APKs
+- **[Mr.IPO User App (v1.0.18)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.18/MrIPO-UserApp-v1.0.18.apk)**
+- **[Mr.IPO Admin App (v1.0.1)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.1/MrIPO-AdminApp-v1.0.1.apk)**
+
+---
+
+### 🚀 Highlights & Changelog (v1.0.18)
+- **IPO Detail Screen Cleanup**: Removed redundant fields (exchange, industry, registrar, company information) and secondary allotment banner across Open, Upcoming, Closed, and Awaiting Allotment stages.
+- **Profile & Tools Streamlining**: Removed live data switch, data sources, and admin console; combined Notification Center and Notification Preferences into a unified "Notification" hub.
+- **Social Connect Section**: Added the "Know Early, Plan Better. Stay Connected with us" channels (X, WhatsApp, Instagram, YouTube, Telegram, Website) to Profile & Tools.
+- **Enhanced Visual Polish**: Full compatibility with both Dark and Light themes across all updated screens.
+
+---
+
+## 📱 Previous Releases
+
+### v1.0.17
 - **[Mr.IPO User App (v1.0.17)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.17/MrIPO-UserApp-v1.0.17.apk)**
 - **[Mr.IPO Admin App (v1.0.1)](https://github.com/mripoofficial/MrIPO-Releases/releases/download/v1.0.1/MrIPO-AdminApp-v1.0.1.apk)**
 
